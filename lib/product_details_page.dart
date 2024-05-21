@@ -31,7 +31,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-            content: Text('Please enter the value')),
+            content: Text(' Please enter the value ')),
       );
     }
   }
