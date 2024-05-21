@@ -27,11 +27,11 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
         'company': widget.ash[' company'],
         'size': selectedsize,
       });
-      const SnackBar(content: Text('Add cheytach myrandi'));
+      const SnackBar(content: Text('Please add));
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-            content: Text('Myre value ninta achan vann enter cheyo funde')),
+            content: Text('Please enter the value')),
       );
     }
   }
